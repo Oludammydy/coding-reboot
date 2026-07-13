@@ -29,3 +29,8 @@ if (patientWardName && patientWardAge && emergencyPatient) {
     console.log("Proceed to Emergency Department.");
 }
 
+if (patientWardAge >= 60) {
+
+console.log("Eligible for Senior Citizen Care.");
+
+}
